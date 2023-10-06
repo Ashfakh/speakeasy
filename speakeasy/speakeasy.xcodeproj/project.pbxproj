@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093933892AD0298000F78083 /* speakeasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093933882AD0298000F78083 /* speakeasyApp.swift */; };
+		0939338D2AD0298200F78083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0939338C2AD0298200F78083 /* Assets.xcassets */; };
+		093933902AD0298200F78083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0939338F2AD0298200F78083 /* Preview Assets.xcassets */; };
+		0939339F2AD0298200F78083 /* speakeasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939339E2AD0298200F78083 /* speakeasyTests.swift */; };
+		093933A92AD0298200F78083 /* speakeasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093933A82AD0298200F78083 /* speakeasyUITests.swift */; };
+		093933AB2AD0298200F78083 /* speakeasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093933AA2AD0298200F78083 /* speakeasyUITestsLaunchTests.swift */; };
+		093933B82AD02B0800F78083 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093933B72AD02B0800F78083 /* RecordView.swift */; };
+		098641D62AD0402C00CBA739 /* speakeasy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 098641D42AD0402C00CBA739 /* speakeasy.xcdatamodeld */; };
+		09991C032AD03A19000D0F66 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09991C022AD03A19000D0F66 /* MainView.swift */; };
+		09991C072AD03A98000D0F66 /* RecordingDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09991C062AD03A98000D0F66 /* RecordingDatabase.swift */; };
+		09991C092AD03B39000D0F66 /* RecordingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09991C082AD03B39000D0F66 /* RecordingListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0939339B2AD0298200F78083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0939337D2AD0298000F78083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093933842AD0298000F78083;
+			remoteInfo = speakeasy;
+		};
+		093933A52AD0298200F78083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0939337D2AD0298000F78083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093933842AD0298000F78083;
+			remoteInfo = speakeasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093933852AD0298000F78083 /* speakeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speakeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093933882AD0298000F78083 /* speakeasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakeasyApp.swift; sourceTree = "<group>"; };
+		0939338C2AD0298200F78083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0939338F2AD0298200F78083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0939339A2AD0298200F78083 /* speakeasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speakeasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0939339E2AD0298200F78083 /* speakeasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakeasyTests.swift; sourceTree = "<group>"; };
+		093933A42AD0298200F78083 /* speakeasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speakeasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093933A82AD0298200F78083 /* speakeasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakeasyUITests.swift; sourceTree = "<group>"; };
+		093933AA2AD0298200F78083 /* speakeasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakeasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		093933B72AD02B0800F78083 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		098641D52AD0402C00CBA739 /* speakeasy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = speakeasy.xcdatamodel; sourceTree = "<group>"; };
+		09991C022AD03A19000D0F66 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		09991C062AD03A98000D0F66 /* RecordingDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDatabase.swift; sourceTree = "<group>"; };
+		09991C082AD03B39000D0F66 /* RecordingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093933822AD0298000F78083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093933972AD0298200F78083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093933A12AD0298200F78083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0939337C2AD0298000F78083 = {
+			isa = PBXGroup;
+			children = (
+				093933872AD0298000F78083 /* speakeasy */,
+				0939339D2AD0298200F78083 /* speakeasyTests */,
+				093933A72AD0298200F78083 /* speakeasyUITests */,
+				093933862AD0298000F78083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093933862AD0298000F78083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093933852AD0298000F78083 /* speakeasy.app */,
+				0939339A2AD0298200F78083 /* speakeasyTests.xctest */,
+				093933A42AD0298200F78083 /* speakeasyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093933872AD0298000F78083 /* speakeasy */ = {
+			isa = PBXGroup;
+			children = (
+				093933882AD0298000F78083 /* speakeasyApp.swift */,
+				0939338C2AD0298200F78083 /* Assets.xcassets */,
+				0939338E2AD0298200F78083 /* Preview Content */,
+				093933B72AD02B0800F78083 /* RecordView.swift */,
+				09991C022AD03A19000D0F66 /* MainView.swift */,
+				09991C062AD03A98000D0F66 /* RecordingDatabase.swift */,
+				09991C082AD03B39000D0F66 /* RecordingListView.swift */,
+				098641D42AD0402C00CBA739 /* speakeasy.xcdatamodeld */,
+			);
+			path = speakeasy;
+			sourceTree = "<group>";
+		};
+		0939338E2AD0298200F78083 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0939338F2AD0298200F78083 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0939339D2AD0298200F78083 /* speakeasyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0939339E2AD0298200F78083 /* speakeasyTests.swift */,
+			);
+			path = speakeasyTests;
+			sourceTree = "<group>";
+		};
+		093933A72AD0298200F78083 /* speakeasyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093933A82AD0298200F78083 /* speakeasyUITests.swift */,
+				093933AA2AD0298200F78083 /* speakeasyUITestsLaunchTests.swift */,
+			);
+			path = speakeasyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093933842AD0298000F78083 /* speakeasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093933AE2AD0298200F78083 /* Build configuration list for PBXNativeTarget "speakeasy" */;
+			buildPhases = (
+				093933812AD0298000F78083 /* Sources */,
+				093933822AD0298000F78083 /* Frameworks */,
+				093933832AD0298000F78083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speakeasy;
+			productName = speakeasy;
+			productReference = 093933852AD0298000F78083 /* speakeasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093933992AD0298200F78083 /* speakeasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093933B12AD0298200F78083 /* Build configuration list for PBXNativeTarget "speakeasyTests" */;
+			buildPhases = (
+				093933962AD0298200F78083 /* Sources */,
+				093933972AD0298200F78083 /* Frameworks */,
+				093933982AD0298200F78083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0939339C2AD0298200F78083 /* PBXTargetDependency */,
+			);
+			name = speakeasyTests;
+			productName = speakeasyTests;
+			productReference = 0939339A2AD0298200F78083 /* speakeasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		093933A32AD0298200F78083 /* speakeasyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093933B42AD0298200F78083 /* Build configuration list for PBXNativeTarget "speakeasyUITests" */;
+			buildPhases = (
+				093933A02AD0298200F78083 /* Sources */,
+				093933A12AD0298200F78083 /* Frameworks */,
+				093933A22AD0298200F78083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093933A62AD0298200F78083 /* PBXTargetDependency */,
+			);
+			name = speakeasyUITests;
+			productName = speakeasyUITests;
+			productReference = 093933A42AD0298200F78083 /* speakeasyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0939337D2AD0298000F78083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					093933842AD0298000F78083 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					093933992AD0298200F78083 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 093933842AD0298000F78083;
+					};
+					093933A32AD0298200F78083 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 093933842AD0298000F78083;
+					};
+				};
+			};
+			buildConfigurationList = 093933802AD0298000F78083 /* Build configuration list for PBXProject "speakeasy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0939337C2AD0298000F78083;
+			productRefGroup = 093933862AD0298000F78083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093933842AD0298000F78083 /* speakeasy */,
+				093933992AD0298200F78083 /* speakeasyTests */,
+				093933A32AD0298200F78083 /* speakeasyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093933832AD0298000F78083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093933902AD0298200F78083 /* Preview Assets.xcassets in Resources */,
+				0939338D2AD0298200F78083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093933982AD0298200F78083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093933A22AD0298200F78083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093933812AD0298000F78083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09991C092AD03B39000D0F66 /* RecordingListView.swift in Sources */,
+				09991C032AD03A19000D0F66 /* MainView.swift in Sources */,
+				098641D62AD0402C00CBA739 /* speakeasy.xcdatamodeld in Sources */,
+				09991C072AD03A98000D0F66 /* RecordingDatabase.swift in Sources */,
+				093933B82AD02B0800F78083 /* RecordView.swift in Sources */,
+				093933892AD0298000F78083 /* speakeasyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093933962AD0298200F78083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0939339F2AD0298200F78083 /* speakeasyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093933A02AD0298200F78083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093933A92AD0298200F78083 /* speakeasyUITests.swift in Sources */,
+				093933AB2AD0298200F78083 /* speakeasyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0939339C2AD0298200F78083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093933842AD0298000F78083 /* speakeasy */;
+			targetProxy = 0939339B2AD0298200F78083 /* PBXContainerItemProxy */;
+		};
+		093933A62AD0298200F78083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093933842AD0298000F78083 /* speakeasy */;
+			targetProxy = 093933A52AD0298200F78083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		093933AC2AD0298200F78083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		093933AD2AD0298200F78083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093933AF2AD0298200F78083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speakeasy/Preview Content\"";
+				DEVELOPMENT_TEAM = JGRUKQRYDW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashfakh.speakeasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093933B02AD0298200F78083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speakeasy/Preview Content\"";
+				DEVELOPMENT_TEAM = JGRUKQRYDW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashfakh.speakeasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		093933B22AD0298200F78083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGRUKQRYDW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashfakh.speakeasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speakeasy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/speakeasy";
+			};
+			name = Debug;
+		};
+		093933B32AD0298200F78083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGRUKQRYDW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashfakh.speakeasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speakeasy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/speakeasy";
+			};
+			name = Release;
+		};
+		093933B52AD0298200F78083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGRUKQRYDW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashfakh.speakeasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speakeasy;
+			};
+			name = Debug;
+		};
+		093933B62AD0298200F78083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGRUKQRYDW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashfakh.speakeasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speakeasy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093933802AD0298000F78083 /* Build configuration list for PBXProject "speakeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093933AC2AD0298200F78083 /* Debug */,
+				093933AD2AD0298200F78083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093933AE2AD0298200F78083 /* Build configuration list for PBXNativeTarget "speakeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093933AF2AD0298200F78083 /* Debug */,
+				093933B02AD0298200F78083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093933B12AD0298200F78083 /* Build configuration list for PBXNativeTarget "speakeasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093933B22AD0298200F78083 /* Debug */,
+				093933B32AD0298200F78083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093933B42AD0298200F78083 /* Build configuration list for PBXNativeTarget "speakeasyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093933B52AD0298200F78083 /* Debug */,
+				093933B62AD0298200F78083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		098641D42AD0402C00CBA739 /* speakeasy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				098641D52AD0402C00CBA739 /* speakeasy.xcdatamodel */,
+			);
+			currentVersion = 098641D52AD0402C00CBA739 /* speakeasy.xcdatamodel */;
+			path = speakeasy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0939337D2AD0298000F78083 /* Project object */;
+}
