@@ -86,6 +86,7 @@
 				0939339D2AD0298200F78083 /* speakeasyTests */,
 				093933A72AD0298200F78083 /* speakeasyUITests */,
 				093933862AD0298000F78083 /* Products */,
+				09B267F72AD95C7F00284C3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,13 @@
 				093933AA2AD0298200F78083 /* speakeasyUITestsLaunchTests.swift */,
 			);
 			path = speakeasyUITests;
+			sourceTree = "<group>";
+		};
+		09B267F72AD95C7F00284C3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +449,9 @@
 				DEVELOPMENT_TEAM = JGRUKQRYDW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Use speech recognition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +481,9 @@
 				DEVELOPMENT_TEAM = JGRUKQRYDW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Use speech recognition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
